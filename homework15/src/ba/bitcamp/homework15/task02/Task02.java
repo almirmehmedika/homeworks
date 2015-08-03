@@ -4,6 +4,8 @@ public class Task02 extends Thread {
 
 	public static void main(String[] args) {
 
+		//Licno ne preferiram nested clase mislim da su pravo nepregledne (naravno moje misljenje :))
+		//Ja bih napravio tri klase razlicitih imena i uradio njihovu inicijalizaciju u main metodi.
 		Thread t1 = new Thread(new Runnable() {
 
 			@Override
