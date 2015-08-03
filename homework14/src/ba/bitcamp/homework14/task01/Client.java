@@ -12,6 +12,7 @@ public class Client {
 		// TODO Auto-generated method stub
 
 		try {
+		        //Savjet: Obicno ovakve stvari npr, Port idu u konstante
 			Socket client = new Socket("localhost", 2468);
 
 			File file = new File("src/slika.jpg");
