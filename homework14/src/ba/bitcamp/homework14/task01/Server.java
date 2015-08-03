@@ -42,6 +42,7 @@ public class Server {
 				while (reader.ready()) {
 					html += reader.readLine() + "\n";
 				}
+				//Borisu sam takodjer vec preporocio pa mozes i ti razmisliti da ovakve stvari radis sa StringBuilder-om
 				html += "<p>Client IP address: " + client.getInetAddress().getHostAddress() + "</p>\n";
 				html += "<p>Time of download: " + Calendar.getInstance().getTime() + "</p>\n";
 				
