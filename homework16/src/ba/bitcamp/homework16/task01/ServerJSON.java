@@ -19,6 +19,8 @@ public class ServerJSON {
 	public static void main(String[] args) {
 		
 		File file = new File("src/README.txt");
+		//Nije greska, ali Java ce staviti warning pa stavi ovo da ti se ne zali.
+		//ArrayList<String> list = new ArrayList<String>();
 		ArrayList<String> list = new ArrayList<>();
 
 		try {
@@ -34,6 +36,9 @@ public class ServerJSON {
 			e.printStackTrace();
 		}
 		
+		//Pitanje sta si sa ovim zelio postici posto Math.random() vraca broj izmedju 0 i 1 i kada to pomozis prakticno ces dobiti uvijek index = 0?
+		//Ovo bas nije lijep nacin citanja iz liste posto mala greska i dobit ces od liste index of bound i ne preporucujem ti ovo da radis
+		//Ako si vec napunio listu uradi for each nad listom i uzimaj od pocetka do kraja vrijednosti
 		String message = list.get((int)(Math.random()*list.size()));
 		String timestamp = Calendar.getInstance().getTime().toString();		
 		BitResponse br = new BitResponse(message, timestamp);
