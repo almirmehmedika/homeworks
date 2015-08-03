@@ -11,14 +11,16 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+//Sve je okay osim kao sto rekoh ne preferiram ovo pisanje koda posto nakon nekog vremena neces znati sta i kako radi klasa,
+//tj, licno mislim da treba izvlaciti metode, praviti male klase i dati pokoji komentar u kodu :) 
 public class Task03 extends JFrame {
 
 	/*
 	 * Napraviti GUI aplikaciju koja ima jedan JLabel i jedan JButton. JLabel je
-	 * na poèetku prazan, ali nakon svake sekunde dobija jedno po jedno slovo
-	 * abecede, pa tako nakon tri sekunde JLabel æe imati u sebi „abc“, a nakon
-	 * pet æe imati „abcde“. Klikom na dugme se zaustavi taj proces, ali ne i
-	 * aplikacija. Koristiti vlastite Thread-ove za ovaj zadatak! Nipošto ne
+	 * na poÃ¨etku prazan, ali nakon svake sekunde dobija jedno po jedno slovo
+	 * abecede, pa tako nakon tri sekunde JLabel Ã¦e imati u sebi â€žabcâ€œ, a nakon
+	 * pet Ã¦e imati â€žabcdeâ€œ. Klikom na dugme se zaustavi taj proces, ali ne i
+	 * aplikacija. Koristiti vlastite Thread-ove za ovaj zadatak! NipoÅ¡to ne
 	 * koristiti glavni Thread za JLabel!
 	 */
 	
